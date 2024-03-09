@@ -41,37 +41,7 @@ body {
     height: auto;
 }
 
-.barra-busca {
-    display: flex;
 
-}
-
-.busca {
-    height: 25px;
-    width: 25px;
-    opacity: 100%;
-}
-
-.lupa {
-    height: 20px;
-    width: 20px;
-    opacity: 100%;
-    margin-right: 10%;
-}
-
-.textbox-busca {
-    margin-left: 5px;
-    height: 25px;
-
-}
-
-.produto {
-
-    height: 50px;
-    width: 50;
-    margin-right: 10px;
-    margin-bottom: 250px;
-}
 
 .produtos {
 
@@ -83,20 +53,6 @@ body {
     margin-bottom: 10px;
 }
 
-.linha-produtos {
-
-    display: flex;
-    color: black;
-    font-style: bold;
-    margin-top: 10px;
-}
-
-.valor-produto {
-
-    color: rgb(0, 0, 0);
-    font-style: bold;
-}
-
 .titulo-pagina {
 
 
@@ -106,9 +62,19 @@ body {
     color: rgb(0, 0, 0);
 }
 
-
 .home {
     text-align: center;
 
     font-size: medium;
+}
+
+.anuncio {
+    height: 700px;
+    width: 300px;
+    background-color: #c93030;
+}
+
+.imagem-principal {
+    width: 500px;
+    height: 700px;
 }
