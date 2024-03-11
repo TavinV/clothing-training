@@ -25,16 +25,11 @@ body {
     padding-left: 10px;
 }
 
-.titulo {
-    width: auto;
-    height: auto;
-}
-
 
 .artigo {
     float: left;
     align-content: center;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: auto;
     width: 80%;
     background-color: #ebebeb;
@@ -44,22 +39,13 @@ body {
 
 
 .produtos {
-
-    display: flex;
-    padding-top: 10%;
+    display: list-item;
+    list-style: none;
+    padding-top: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     color: rgb(0, 0, 0);
-    margin-bottom: 10px;
-}
-
-.titulo-pagina {
-
-
-    text-align: left;
-    font-size: 35px;
-    width: auto;
-    color: rgb(0, 0, 0);
+    
 }
 
 .home {
@@ -69,12 +55,24 @@ body {
 }
 
 .anuncio {
-    height: 700px;
-    width: 300px;
+    display: flex;
+    margin-top: 5%;
+    height: 900px;
+    width: 80%;
     background-color: #c93030;
 }
 
-.imagem-principal {
-    width: 500px;
+.imagem-atual {
+    width: 800px;
     height: 700px;
+    
+}
+
+
+.info-principal {
+    background-color: antiquewhite;
+    margin-left: 1%;
+    width: 400px;
+    height: 400px;
+    
 }
