@@ -1,4 +1,4 @@
 # clothing-training
 
 Acesse em:
-https://www.youtube.com/watch?v=Sm-PIVGcrvc
+https://tavinv.github.io/clothing-training/
