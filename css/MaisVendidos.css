@@ -62,7 +62,7 @@ body {
 
 .linha-de-produtos {
     display: flex;
-    background-color: aqua;
+    
     height: max-content;
     width: max-content;
 }
