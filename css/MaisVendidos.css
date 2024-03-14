@@ -14,10 +14,47 @@ body {
     background-color: #c93030;
     width: 100%;
     padding: 30px;
-    text-align: center;
+    text-align: left;
     font-weight: 800;
     font-size: 35px;
     color: white;
+
+    .buscar {
+        margin-left: 30%;
+
+        
+
+        .imagem-lupa {
+            height: 25px;
+            width: 25px;
+            cursor: pointer;
+            
+        }
+        
+        .barra-busca {
+            color: aliceblue;
+            height: 30px;
+            width: 500px;
+
+            justify-content: center;
+            position: relative;
+
+            background-color: #d84949;
+            border: solid;
+            border: 3px;
+            border-radius: 5px;
+            border-color: rgb(255, 255, 255);
+            top: -5px;
+        }
+    }
+
+    .carrinho {
+        position: absolute;
+        right: 10px;
+        top: 60px;
+        height: 25px;
+        width: 25px;
+    }
 
 }
 
@@ -43,6 +80,11 @@ body {
     border-radius: 5px;
 }
 
+.titulo-pagina{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
 
 .artigo {
     float: left;
@@ -62,7 +104,7 @@ body {
 
 .linha-de-produtos {
     display: flex;
-    
+    margin-bottom: 20px;
     height: max-content;
     width: max-content;
 }
@@ -78,29 +120,75 @@ body {
 }
 
 .foto-anuncio {
+    align-self: center;
     height: 250px;
-    width: 250px;
-    border-radius: 15px;
+    width: 300px;
+    
+}
+
+.info-produto{
+    margin-left: 20px;
+    padding-top: 10px;
 }
 
 .produto {
-    text-align: center;
-    height: 500px;
-    width: 250px;
+    
+    text-align: left;
+    height: 450px;
+    width: 304px;
     margin-right: 20px;
+    border: 2px;
+    border-color: rgb(253, 253, 253);
+    
+    
+    border-style: inset;
     
     
     .nome-do-produto {
-        text-align: left;
         font-size: 20px;
     }
     
-    .valor-do-produto {
-        height: 50px;
-        text-align: left;
-        width: max-content;
-        background-color: #790909;
+    .valor-produto {
+        display: flex;
+        height: min-content;
+        width: min-content;
+        margin-top: 15px;
+       
     }
-   
+    
+    .simbolo-cifrao {
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .valor-em-reais{
+        position: relative;
+        top: -35px;
+
+        font-size: 40px;
+    }
+
+    .estrelas {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .estrela {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .estrela-incompleta {
+        width: 15px;
+        height: 15px;
+    
+        clip-path: inset(0% 45% 0% 0%);
+    }
+    
+    
+    
+    .total-avaliacoes {
+        font-size: 10px;
+    }
     
 }
