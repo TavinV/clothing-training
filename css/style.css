@@ -4,14 +4,29 @@
 
 body {
     margin: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(1, 1, 10);
     background-color: #ebebeb;
 }
 
 .header {
     background-color: #c93030;
+    width: 100%;
     padding: 30px;
     text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+}
+
+.barra-principal {
+    display: flex;
+    background-color: #790909;
+
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 800;
     font-size: 35px;
     color: white;
 }
@@ -23,92 +38,34 @@ body {
     background: #cecece;
     padding: 20px;
     padding-left: 10px;
-}
-
-.titulo {
-    width: auto;
-    height: auto;
+    border-radius: 5px;
 }
 
 
 .artigo {
     float: left;
     align-content: center;
-    padding-left: 10%;
-    padding-right: auto;
-    width: 80%;
+
     background-color: #ebebeb;
-    height: auto;
+
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+    padding-top: 5px;
+
+    height: max-content;
+    width: max-content;
 }
 
-.barra-busca {
-    display: flex;
 
-}
-
-.busca {
-    height: 25px;
-    width: 25px;
-    opacity: 100%;
-}
-
-.lupa {
-    height: 20px;
-    width: 20px;
-    opacity: 100%;
-    margin-right: 10%;
-}
-
-.textbox-busca {
-    margin-left: 5px;
-    height: 25px;
-
-}
-
-.produto {
-
-    height: 50px;
-    width: 50;
-    margin-right: 10px;
-    margin-bottom: 250px;
-}
 
 .produtos {
-
-    display: flex;
-    padding-top: 10%;
+    display: list-item;
+    list-style: none;
+    padding-top: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
-    color: rgb(0, 0, 0);
-    margin-bottom: 10px;
-}
+    color: rgb(1, 1, 10);
 
-.linha-produtos {
-
-    display: flex;
-    color: black;
-    font-style: bold;
-    margin-top: 10px;
-}
-
-.valor-produto {
-
-    color: rgb(0, 0, 0);
-    font-style: bold;
-}
-
-.titulo-pagina {
-
-
-    text-align: left;
-    font-size: 35px;
-    width: auto;
-    color: rgb(0, 0, 0);
-}
-
-
-.home {
-    text-align: center;
-
-    font-size: medium;
 }
